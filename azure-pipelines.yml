@@ -6,8 +6,9 @@
 trigger:
 - master
 
-pool: BookStore
-
+pool: 
+ vmImage: ubuntu-latest
+ 
 steps:
 - task: ArchiveFiles@2
   inputs:
